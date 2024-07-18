@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.mainContainer{
+  background-color: #737373;
+  border-radius: 20px;
+  height: 70vh;
+  width: 65vw;
+  margin: 20px auto;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.questionSection{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.questionSection ul{
+  padding: 10px;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.questionSection ul li{
+  border: 3px solid #FBFBFB;
+  background-color: #9E9E9E;
+  color: #F0F0F0;
+  border-radius: 10px;
+  width: 100%;
+  height: 22%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.mainContainer .question{
+  color: #100A4A;
+}
+
+
+#scoreBoard{
+  margin-top: 2vh ;
+  height: 90vh;
+}
+#scoreBoard button{
+  width: 10%;
+  height: 8%;
+  color: #151c7a;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 15px;
+}
+#scoreBoard button:hover{
+  width: 10%;
+  height: 8%;
+  background-color:#151c7a ;
+  color: #F0F0F0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+.scoreSection{
+  border: 3px solid #151c7a;
+  background-color: #737373;
+  padding: 20px;
+  width: 70%;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+.scoreSection ul{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 2px solid black; */
+  height: 80% ;
+  width: 80%;
+  border-radius: 10px;
+  list-style-type: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.scoreSection ul li {
+  border: 3px solid #FBFBFB;
+  background-color: #9E9E9E;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F0F0F0;
+}
+.scoreSection p{
+  font-size: 1.3rem;
+  color: #100A4A;
+  font-weight: 600;
+}
+#congrats{
+  text-align: center;
+  color: #151c7a;
+}
+#congrats p{
+  font-size: 1.2rem;
+}
